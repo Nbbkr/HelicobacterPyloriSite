@@ -94,11 +94,11 @@ li {
     -webkit-text-fill-color: transparent; 
     text-align: center; 
     position: relative;
-    font-size: 9rem;
+    font-size: 8.5rem;
     margin: 0;
     width: 100%;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 5.5px;
     overflow: hidden;
     
 }
@@ -128,13 +128,13 @@ li {
 .Accueil p{
     display: block;
     width: fit-content;
-    font-size: 2.5rem;
+    font-size: 2rem;
     position: relative;
     color:rgb(8, 8, 8);
     z-index: 1;
     text-align: center;
-    margin-bottom: 20px;
     margin-left: 30px;
+    margin-top: 20px;
 }
 .Accueil .cta {
     display: inline-block;
