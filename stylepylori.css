@@ -74,7 +74,10 @@ header .navbar a.active {
     color: rgb(16, 79, 151);
     font-weight: bold;
 }
-
+.a {
+    color: rgb(226, 17, 17);
+    font-weight: bold;
+}
 
 ul {
     list-style: none;
