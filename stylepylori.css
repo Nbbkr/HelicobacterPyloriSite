@@ -51,17 +51,41 @@ header .navbar a{
     padding: 0 1.5rem;
    color: #494848; 
 }
-
-/* Style des liens de la barre de navigation lorsque l'élément est actif */
+header .navbar a:hover{
+    color: var(--pink);
+}
 header .navbar a.active {
     color: var(--pink);
-    font-weight: bold; /* Vous pouvez ajouter du gras ou d'autres styles si vous le souhaitez */
+    font-weight: bold; 
 }
 /*barre end*/
 
-/*Acceuil start*/
+.dosage {
+    color: black;
+    text-transform: lowercase; /* Tout le texte en minuscules */
+    display: inline-block; 
+  }
+  
+  .dosage:first-letter {
+    text-transform: capitalize; /* La première lettre en majuscule */
+  }
+  .medication {
+    color: rgb(16, 79, 151);
+    font-weight: bold;
+}
 
-.Acceuil .text {
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+ 
+/*Accueil start*/
+
+.Accueil .text {
     background: url("h-pylori_microbiote.jpg") center/cover no-repeat;
     background-clip: text;
     color: transparent;
@@ -78,10 +102,10 @@ header .navbar a.active {
 .first-letter {
     text-transform: uppercase;}
 
-.Acceuil h2 {
+.Accueil h2 {
         position: relative;
         font-size: 9rem;
-        color: transparent; /* Rend le texte transparent pour afficher la vidéo */
+        color: transparent; 
         text-align: center;
         margin: 0;
         width: 100%;
@@ -91,22 +115,21 @@ header .navbar a.active {
 }
  
     
-.Acceuil {
+.Accueil {
         display: flex;
-        justify-content: center; /* Centre horizontalement */
-        align-items: center; /* Centre verticalement */
-        height: 100vh; /* Hauteur de la fenêtre pour occuper tout l'écran */
-        text-align: center; /* Centre le texte */
-        /*background-color: #ffffff44; /* Ajoute un fond blanc pour l'ombre */
-        background-color: #ebeff0; /* Gris */
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+        text-align: center;
+        background-color: #ebeff0; 
          color: white;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
-        border-radius: 15px; /* Coins arrondis pour un effet chic */
-        padding: 50px; /* Espace intérieur pour une meilleure présentation */
-        margin-bottom: 50px; /* Espace sous la section Acceuil */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+        border-radius: 15px; 
+        padding: 50px; 
+        margin-bottom: 50px; 
 }
 
-.Acceuil p{
+.Accueil p{
     display: block;
     width: fit-content;
     font-size: 2.5rem;
@@ -116,7 +139,7 @@ header .navbar a.active {
     text-align: center;
     margin-bottom: 20px;
 }
-.Acceuil .cta {
+.Accueil .cta {
     display: inline-block;
     padding: 10px 15px;
     position: relative;
@@ -132,11 +155,11 @@ header .navbar a.active {
     z-index: 1;
     text-align: center;  
 }
-.Acceuil .cta:hover{
+.Accueil .cta:hover{
     color:#fff;
     background-color:rgb(89, 123, 185) ;  
 }
-/*Acceuil end*/
+/*Accueil end*/
 
 /*decouvrir start*/
 
@@ -148,18 +171,17 @@ header .navbar a.active {
     padding: 1rem;
     margin: 2.2rem;
     background: rgba(212, 238, 65, 0.089);
-    margin-bottom: 10px; /* Espace en dessous de chaque en-tête */
+    margin-bottom: 10px; 
 
 }
 .heading {
     text-align: left;
     font-size: 1.8rem;
-    color: #116e99; /* Une couleur différente pour le titre */
+    color: #116e99; 
     padding: 1rem;
     margin: 2rem;
-    background: rgba(102, 159, 192, 0.103); /* Arrière-plan légèrement différent */
-    border-left: 3px solid #116e99; /* Une bordure à gauche pour ajouter un peu de style */
-
+    background: rgba(102, 159, 192, 0.103); 
+    border-left: 3px solid #116e99; 
 }
 #Decouvrir-content .content p {
 display: block;
@@ -169,27 +191,25 @@ font-size: 1.8rem;
 position: relative;
 color:rgb(7, 7, 7);
 text-transform: none; 
-margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
+margin-top: 10px; 
 }
 
-/* Pour mettre uniquement la première lettre de chaque phrase en majuscule */
 #Decouvrir-content .content p:first-letter {
     text-transform: capitalize;
 }
 #Decouvrir-content .content ul {
-    font-size: 1.78rem; /* Change la taille du texte */
-    color: #0c587a; /* Change la couleur du texte */
-    line-height: 1.5; /* Ajoute de l'espacement entre les lignes */
-    margin: 30px; /* Ajoute de l'espace autour de la liste */
-    padding-left: 30px; /* Ajoute un espace à gauche de la liste */
-    margin-top: 20px;/* Espace au-dessus de la liste */
+    font-size: 1.78rem; 
+    color: #0c587a; 
+    line-height: 1.5;
+    margin: 30px;
+    padding-left: 30px; 
+    margin-top: 20px;
 
-        list-style-type: disc; /* Assure que les points sont affichés */
-        margin-left: 20px;     /* Ajoute un peu de marge pour l'indentation */   
-}
+        list-style-type: disc;
+        margin-left: 20px;   
 
 #Decouvrir-content .content ul li {
-    margin-bottom: 10px; /* Ajoute de l'espace en dessous de chaque élément de la liste */
+    margin-bottom: 10px; 
 }
 
 /*decouvrir end*/
@@ -198,7 +218,7 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
 
 .Traitement {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments en colonne */
+    flex-direction: column;
     align-items: center;
     min-height: 100vh;
     position: relative;
@@ -210,18 +230,18 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
     top: 0;
     left: 0;
     width: 100%;
-    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    height: 200px; 
     background: url("img.jpg") no-repeat center center;
     background-size: cover;
-    z-index: -1; /* Place l'image derrière le contenu */
+    z-index: -1; 
 }
 /*Traitement start */
 .Traitement-content {
-    position: relative; /* Pour que le contenu soit au-dessus de l'image */
-    padding-top: 220px; /* Ajustez pour laisser de l'espace sous l'image */
-    text-align: center; /* Centrer le texte si nécessaire */
-    color: white; /* Couleur du texte pour contraste avec l'image */
-    z-index: 1; /* Assurez-vous que le texte est au-dessus de l'image */
+    position: relative; 
+    padding-top: 220px; 
+    text-align: center; 
+    color: white; 
+    z-index: 1;
 }
 
 
@@ -229,11 +249,11 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
 .Traitement .content h3 {
     text-align: left;
     font-size: 1.8rem;
-    color: #629405; /* Une couleur différente pour le titre */
+    color: #629405; 
     padding: 1rem;
     margin: 2rem;
-    background: rgba(106, 27, 154, 0.05); /* Arrière-plan légèrement différent */
-    border-left: 4px solid #629405; /* Une bordure à gauche pour ajouter un peu de style */
+    background: rgba(106, 27, 154, 0.05); 
+    border-left: 4px solid #629405; 
 }
 
 .Traitement .content p {
@@ -244,32 +264,30 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
     position: relative;
     color:rgb(7, 7, 7);
     text-transform: none; 
-    margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
+    margin-top: 10px; 
     }
     
-    /* Pour mettre uniquement la première lettre de chaque phrase en majuscule */
 .Traitement .content p:first-letter {
         text-transform: capitalize;
     }
 .Traitement .content ul {
-    font-size: 1.78rem; /* Change la taille du texte */
-    /*color: #065a81c7; /* Change la couleur du texte */
+    font-size: 1.78rem; 
     color: #0b74a5c7;
-    line-height: 1.5; /* Ajoute de l'espacement entre les lignes */
-    margin: 30px; /* Ajoute de l'espace autour de la liste */
-    padding-left: 30px; /* Ajoute un espace à gauche de la liste */
+    line-height: 1.5; 
+    margin: 30px; 
+    padding-left: 30px; 
     margin-top: 20px;
-    list-style-type: disc; /* Assure que les points sont affichés */
-        margin-left: 20px; 
+    list-style-type: disc;
+    margin-left: 20px; 
 }
 
 .Traitement .content ul li {
-    margin-bottom: 10px; /* Espace en dessous de chaque élément de la liste */
+    margin-bottom: 10px; 
 }
 .Traitement .content p1{
     text-align: left;
     font-size: 1.8rem;
-    color: #fc0c0c; /* Une couleur différente pour le titre */
+    color: #fc0c0c; 
     padding: 1rem;
     margin: 2rem;
 }
@@ -278,15 +296,15 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
 /*between traitement et conseils */
 
 .ligne-fine {
-    height: 1px; /* Définit la hauteur de la ligne */
-    background-color: #cc4303; /* Couleur de la ligne (ici, noir) */
-    margin: 0.25px 0; /* Espace avant et après la ligne */
-    width: 100%; /* Largeur de la ligne */
+    height: 1px; 
+    background-color: #cc4303; 
+    margin: 0.25px 0; 
+    width: 100%; 
 }
 
 .conseils {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments en colonne */
+    flex-direction: column; 
     align-items: left;
     min-height: 100vh;
     position: relative;
@@ -298,70 +316,69 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
     top: 0;
     left: 0;
     width: 100%;
-    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    height: 200px;
     background: url("Conseil.png") no-repeat center center;
     background-size: cover;
-    z-index: -1; /* Place l'image derrière le contenu */
+    z-index: -1; 
 }
 .conseils::after {
     content: "";
     position: absolute;
-    top: 201px; /* Hauteur de la photo + 1px pour l'espace après la photo */
+    top: 201px;
     left: 0;
     width: 100%;
-    height: 1px; /* Hauteur de la ligne après la photo */
-    background-color: #cc4303; /* Couleur de la ligne */
+    height: 1px; 
+    background-color: #cc4303; 
     z-index: -1;
 }
 
 .conseils .photo {
     position: absolute;
-    top: 1px; /* Ajuste la position en fonction de la hauteur des lignes */
+    top: 1px;
     left: 0;
     width: 100%;
-    height: 200px; /* Ajuste la hauteur en fonction de la taille de la photo */
+    height: 200px; 
     background: url("Conseil.png") no-repeat center center;
     background-size: cover;
 }
 .conseils .content h4{
 text-align: left;
 font-size: 2rem;
-color: #000000; /* Une couleur différente pour le titre */
+color: #000000; 
 padding: 1rem;
 margin: 2rem;
 }
 
 .conseils .content ol {
-    font-size: 1.78rem; /* Change la taille du texte */
-    color: #02524e; /* Change la couleur du texte */
-    line-height: 1.5; /* Ajoute de l'espacement entre les lignes */
-    margin: 30px; /* Ajoute de l'espace autour de la liste */
-    padding-left: 30px; /* Ajoute un espace à gauche de la liste */
-    margin-top: 20px;/* Espace au-dessus de la liste */
+    font-size: 1.78rem; 
+    color: #02524e; 
+    line-height: 1.5; 
+    margin: 30px; 
+    padding-left: 30px; 
+    margin-top: 20px;
 
         
-        margin-left: 20px;     /* Ajoute un peu de marge pour l'indentation */   
+        margin-left: 20px;     
 }
 
 .conseils .content ol li {
-    margin-bottom: 10px; /* Ajoute de l'espace en dessous de chaque élément de la liste */
+    margin-bottom: 10px;
 }
 
 
 .conseils .content ul {
-    font-size: 1.78rem; /* Change la taille du texte */
-    color: #e9520c; /* Change la couleur du texte */
-    line-height: 1.5; /* Ajoute de l'espacement entre les lignes */
-    margin: 30px; /* Ajoute de l'espace autour de la liste */
-    padding-left: 30px; /* Ajoute un espace à gauche de la liste */
-    margin-top: 20px;/* Espace au-dessus de la liste */
-
-        list-style-type: disc; /* Assure que les points sont affichés */
-        margin-left: 20px;     /* Ajoute un peu de marge pour l'indentation */   
+    font-size: 1.78rem; 
+    color: #e9520c;
+    line-height: 1.5; 
+    margin: 30px; 
+    padding-left: 30px; 
+    margin-top: 20px;
+    list-style-type: disc; 
+    margin-left: 20px;     
 }
 
 .conseils .content ul li {
-    margin-bottom: 10px; /* Ajoute de l'espace en dessous de chaque élément de la liste */
+    margin-bottom: 10px;
 }
 
 
@@ -373,10 +390,10 @@ margin: 2rem;
     position: relative;
     color:rgb(7, 7, 7);
     text-transform: none; 
-    margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
+    margin-top: 10px; 
     }
     
-    /* Pour mettre uniquement la première lettre de chaque phrase en majuscule */
+   
 .conseils .content p:first-letter {
         text-transform: capitalize;
     }
@@ -387,7 +404,7 @@ margin: 2rem;
 
 .Alimentation {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments en colonne */
+    flex-direction: column; 
     align-items: left;
     min-height: 100vh;
     position: relative;
@@ -399,34 +416,33 @@ margin: 2rem;
     top: 0;
     left: 0;
     width: 100%;
-    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    height: 200px; 
     background: url("alimentation-saine.jpg") no-repeat center center;
     background-size: cover;
-    z-index: -1; /* Place l'image derrière le contenu */
+    z-index: -1; 
 }
 .Alimentation .content h3 {
     text-align: left;
     font-size: 1.8rem;
-    color: #e70b0b; /* Une couleur différente pour le titre */
+    color: #e70b0b; 
     padding: 1rem;
     margin: 2rem;
-    background: rgba(106, 27, 154, 0.05); /* Arrière-plan légèrement différent */
+    background: rgba(106, 27, 154, 0.05); 
     border-left: 4px solid #e70b0b;
 }
 .Alimentation .content ul {
-    font-size: 1.78rem; /* Change la taille du texte */
-    color: #08638dc7; /* Change la couleur du texte */
-    line-height: 1.5; /* Ajoute de l'espacement entre les lignes */
-    margin: 30px; /* Ajoute de l'espace autour de la liste */
-    padding-left: 30px; /* Ajoute un espace à gauche de la liste */
-    margin-top: 20px;/* Espace au-dessus de la liste */
-
-        list-style-type: disc; /* Assure que les points sont affichés */
-        margin-left: 20px;     /* Ajoute un peu de marge pour l'indentation */   
+    font-size: 1.78rem; 
+    color: #08638dc7; 
+    line-height: 1.5; 
+    margin: 30px; 
+    padding-left: 30px; 
+    margin-top: 20px;
+    list-style-type: disc; 
+    margin-left: 20px;    
 }
 
 .Alimentation .content ul li {
-    margin-bottom: 10px; /* Ajoute de l'espace en dessous de chaque élément de la liste */
+    margin-bottom: 10px;
 }
 
 
@@ -438,10 +454,29 @@ margin: 2rem;
     position: relative;
     color:rgb(7, 7, 7);
     text-transform: none; 
-    margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
+    margin-top: 10px; 
     }
     
-    /* Pour mettre uniquement la première lettre de chaque phrase en majuscule */
 .Alimentation .content p:first-letter {
         text-transform: capitalize;
     }
+
+   
+
+footer {
+        background-color: #f8f8f8;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px; 
+        color: #555; 
+      }
+      
+.footer-content p {
+        margin-top: 10px; 
+        text-transform: lowercase;
+      }
+.footer-content p:first-letter {
+        text-transform: capitalize;
+}
+
+
