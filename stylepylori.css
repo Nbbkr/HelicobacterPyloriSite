@@ -304,7 +304,7 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
     width: 100%; /* Largeur de la ligne */
 }
 
-.conseils {
+.Conseils {
     display: flex;
     flex-direction: column; /* Pour empiler les éléments en colonne */
     align-items: left;
@@ -312,7 +312,7 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
     position: relative;
 }
 
-.conseils::before {
+.Conseils::before {
     content: "";
     position: absolute;
     top: 0;
@@ -323,7 +323,7 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
     background-size: cover;
     z-index: -1; /* Place l'image derrière le contenu */
 }
-.conseils::after {
+.Conseils::after {
     content: "";
     position: absolute;
     top: 201px; /* Hauteur de la photo + 1px pour l'espace après la photo */
@@ -334,7 +334,7 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
     z-index: -1;
 }
 
-.conseils .photo {
+.Conseils .photo {
     position: absolute;
     top: 1px; /* Ajuste la position en fonction de la hauteur des lignes */
     left: 0;
@@ -343,7 +343,7 @@ margin-top: 10px; /* Espace au-dessus de chaque paragraphe */
     background: url("Conseil.png") no-repeat center center;
     background-size: cover;
 }
-.conseils .content h4{
+.Conseils .content h4{
 text-align: left;
 font-size: 2rem;
 color: #000000; /* Une couleur différente pour le titre */
@@ -351,7 +351,7 @@ padding: 1rem;
 margin: 2rem;
 }
 
-.conseils .content ol {
+.Conseils .content ol {
     font-size: 1.78rem; /* Change la taille du texte */
     color: #02524e; /* Change la couleur du texte */
     line-height: 1.5; /* Ajoute de l'espacement entre les lignes */
@@ -363,12 +363,12 @@ margin: 2rem;
         margin-left: 20px;     /* Ajoute un peu de marge pour l'indentation */   
 }
 
-.conseils .content ol li {
+.Conseils .content ol li {
     margin-bottom: 10px; /* Ajoute de l'espace en dessous de chaque élément de la liste */
 }
 
 
-.conseils .content ul {
+.Conseils .content ul {
     font-size: 1.78rem; /* Change la taille du texte */
     color: #e9520c; /* Change la couleur du texte */
     line-height: 1.5; /* Ajoute de l'espacement entre les lignes */
@@ -380,12 +380,12 @@ margin: 2rem;
         margin-left: 20px;     /* Ajoute un peu de marge pour l'indentation */   
 }
 
-.conseils .content ul li {
+.Conseils .content ul li {
     margin-bottom: 10px; /* Ajoute de l'espace en dessous de chaque élément de la liste */
 }
 
 
-.conseils .content p {
+.Conseils .content p {
     display: block;
     margin: 2.5rem;
     width: fit-content;
@@ -397,7 +397,7 @@ margin: 2rem;
     }
     
     /* Pour mettre uniquement la première lettre de chaque phrase en majuscule */
-.conseils .content p:first-letter {
+.Conseils .content p:first-letter {
         text-transform: capitalize;
     }
 
