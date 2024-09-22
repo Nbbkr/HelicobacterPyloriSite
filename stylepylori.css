@@ -93,6 +93,13 @@ li {
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     text-align: center; 
+    position: relative;
+    font-size: 9rem;
+    margin: 0;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    overflow: hidden;
     
 }
 
@@ -103,32 +110,19 @@ li {
 .first-letter {
     text-transform: uppercase;}
 
-.Accueil h2 {
-        position: relative;
-        font-size: 9rem;
-        color: transparent; /* Rend le texte transparent pour afficher la vidéo */
-        text-align: center;
-        margin: 0;
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-        overflow: hidden;
-}
- 
     
 .Accueil {
         display: flex;
-        justify-content: center; /* Centre horizontalement */
-        align-items: center; /* Centre verticalement */
-        height: 100vh; /* Hauteur de la fenêtre pour occuper tout l'écran */
-        text-align: center; /* Centre le texte */
-        /*background-color: #ffffff44; /* Ajoute un fond blanc pour l'ombre */
-        background-color: #ebeff0; /* Gris */
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+        text-align: center; 
+        background-color: #f8f8f8c2; 
          color: white;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Ombre douce */
-        border-radius: 15px; /* Coins arrondis pour un effet chic */
-        padding: 50px; /* Espace intérieur pour une meilleure présentation */
-        margin-bottom: 50px; /* Espace sous la section Acceuil */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); 
+        border-radius: 15px;
+        padding: 50px; 
+        margin-bottom: 40px; 
 }
 
 .Accueil p{
@@ -140,6 +134,7 @@ li {
     z-index: 1;
     text-align: center;
     margin-bottom: 20px;
+    margin-left: 30px;
 }
 .Accueil .cta {
     display: inline-block;
